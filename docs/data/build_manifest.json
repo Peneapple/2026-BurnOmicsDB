@@ -1,0 +1,11 @@
+{
+  "site_version": "0.1",
+  "generated": "2026-07-28",
+  "datasets": 6,
+  "contrasts": 22,
+  "result_rows": 448735,
+  "unique_gene_ids": 23349,
+  "gene_reference_records": 193811,
+  "search_terms": 730234,
+  "bucket_count": 64
+}

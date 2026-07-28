@@ -1,0 +1,40 @@
+cff-version: "1.2.0"
+message: "If you use BurnOmicsDB, please cite the archived dataset using these metadata."
+type: dataset
+title: "BurnOmicsDB: a curated and standardized database of human burn injury transcriptomics across tissues, time points, and clinical contexts"
+version: "1.0.0"
+doi: "10.5281/zenodo.21648675"
+date-released: "2026-07-28"
+authors:
+  - family-names: "Geng"
+    given-names: "Peter X."
+    affiliation: "Peking University; University of Colorado Boulder"
+  - family-names: "Dou"
+    given-names: "Zhe"
+    affiliation: "Beijing Jishuitan Hospital; Capital Medical University"
+contact:
+  - family-names: "Geng"
+    given-names: "Peter X."
+    affiliation: "Peking University"
+    email: "peter_geng@stu.pku.edu.cn"
+abstract: >-
+  BurnOmicsDB is a curated, standardized, and gene-centered database that
+  integrates human burn injury transcriptomic evidence across tissues,
+  post-injury time points, wound stages, and clinical contexts. Version 1.0.0
+  contains six GEO datasets, 22 predefined differential-expression contrasts,
+  448,735 gene-contrast result records, reproducible analysis code, and a
+  static alias-aware gene-search website.
+keywords:
+  - "BurnOmicsDB"
+  - "burn injury"
+  - "transcriptomics"
+  - "gene expression"
+  - "differential expression"
+  - "RNA sequencing"
+  - "Affymetrix microarray"
+  - "wound healing"
+  - "hypertrophic scar"
+  - "clinical bioinformatics"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Peneapple/2026-BurnOmicsDB"
+url: "https://peneapple.github.io/2026-BurnOmicsDB/"

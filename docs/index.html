@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BurnOmicsDB: gene-centered access to human burn transcriptomic evidence across GEO datasets.">
+  <meta name="theme-color" content="#123b4a">
+  <title>BurnOmicsDB</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="BurnOmicsDB home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span><strong>BurnOmicsDB</strong><small>Human burn transcriptomics</small></span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#home" data-route="home">Gene search</a>
+        <a href="#datasets" data-route="datasets">Datasets</a>
+        <a href="#methods" data-route="methods">Methods</a>
+        <a href="#downloads" data-route="downloads">Downloads</a>
+        <a href="#about" data-route="about">About</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"><div class="page-loading">Loading BurnOmicsDB…</div></main>
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><strong>BurnOmicsDB</strong><p>Gene-centered evidence from independently reanalyzed human burn transcriptomic datasets.</p></div>
+      <div><p><a href="#methods">Methods</a> · <a href="#downloads">Downloads</a> · <a href="#about">Citation</a></p><p class="muted">Research reference only; not a clinical decision-support system.</p></div>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal-root" id="modal-root" aria-live="polite"></div>
+  <script src="data/config.js"></script>
+  <script src="data/datasets.js"></script>
+  <script src="data/contrasts.js"></script>
+  <script src="data/site_stats.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

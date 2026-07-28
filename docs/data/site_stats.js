@@ -1,0 +1,1 @@
+window.BURN_SITE_STATS={"datasets":6,"contrasts":22,"result_rows":448735,"unique_result_gene_ids":23349,"tissues":["Skin","Peripheral blood","Whole blood"],"up_significant":22576,"down_significant":19999};
