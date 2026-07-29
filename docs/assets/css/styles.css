@@ -19,3 +19,67 @@ main{min-height:72vh}.page-loading{padding:120px 20px;text-align:center;color:va
 .modal-root:empty{display:none}.modal-backdrop{position:fixed;inset:0;background:rgba(13,35,42,.48);z-index:220;display:flex;justify-content:flex-end}.drawer{height:100%;width:min(610px,94vw);background:white;overflow-y:auto;box-shadow:-20px 0 60px rgba(0,0,0,.18);animation:slidein .22s ease}.drawer-head{position:sticky;top:0;background:white;border-bottom:1px solid var(--line);padding:19px 22px;display:flex;justify-content:space-between;align-items:start;z-index:2}.drawer-head h2{font-size:1.35rem}.close-btn{border:1px solid var(--line);background:white;width:35px;height:35px;border-radius:9px;cursor:pointer}.drawer-body{padding:22px}.detail-section{padding:18px 0;border-bottom:1px solid var(--line)}.detail-section:last-child{border:0}.detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.detail{background:#f6f9f9;border-radius:10px;padding:11px}.detail span{display:block;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.04em}.detail strong{display:block;margin-top:3px;font-size:.88rem;word-break:break-word}.ambiguous-list{display:grid;gap:10px}.ambiguous-option{width:100%;text-align:left;border:1px solid var(--line);background:white;border-radius:12px;padding:13px;cursor:pointer}.ambiguous-option:hover{background:#f3f8f7}.lightbox{position:fixed;inset:0;background:rgba(4,18,22,.88);z-index:230;display:grid;place-items:center;padding:25px}.lightbox img{max-width:95vw;max-height:87vh;background:white;border-radius:8px}.lightbox button{position:absolute;right:24px;top:20px;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.2);color:white;border-radius:9px;padding:8px 12px;cursor:pointer}@keyframes slidein{from{transform:translateX(35px);opacity:.5}to{transform:none;opacity:1}}
 @media(max-width:920px){.hero-inner{grid-template-columns:1fr;gap:30px;padding-top:60px}.hero-panel{max-width:650px}.stat-grid{grid-template-columns:repeat(2,1fr)}.coverage-grid,.dataset-grid,.info-grid{grid-template-columns:repeat(2,1fr)}.gene-head,.dataset-top{grid-template-columns:1fr}.gene-search-again{min-width:0}.summary-cards{grid-template-columns:repeat(2,1fr)}.contrast-grid{grid-template-columns:1fr}.primary-nav{position:absolute;right:20px;top:68px;background:white;border:1px solid var(--line);border-radius:13px;padding:12px;box-shadow:var(--shadow);display:none;flex-direction:column;align-items:stretch;gap:5px;width:190px}.primary-nav.open{display:flex}.primary-nav a{padding:8px}.nav-toggle{display:block}.method-grid{grid-template-columns:1fr}}
 @media(max-width:640px){.shell{width:min(100% - 24px,var(--max))}.header-inner{height:68px}.brand small{display:none}.hero-inner{padding:45px 0 50px}.hero-panel{display:none}h1{font-size:2.55rem}.search-row{padding:5px}.search-row button{padding:11px 12px}.search-icon{display:none}.stats-band{padding:18px 0}.stat{padding:15px}.stat strong{font-size:1.25rem}.section{padding:50px 0}.coverage-grid,.dataset-grid,.info-grid,.figure-grid{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:8px}.gene-head{gap:20px}.summary-cards{gap:9px}.summary-card{padding:13px}.panel-head{align-items:flex-start;flex-direction:column}.effect-axis,.effect-row{grid-template-columns:170px 360px}.result-table thead{display:none}.result-table,.result-table tbody,.result-table tr,.result-table td{display:block}.result-table tr{border:1px solid var(--line);border-radius:13px;margin:12px;background:white;padding:11px}.result-table td{border:0;padding:4px 3px}.result-table td:before{content:attr(data-label);display:block;color:var(--muted);font-size:.67rem;text-transform:uppercase;letter-spacing:.04em}.table-wrap{overflow:visible}.detail-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.suggestion{grid-template-columns:95px minmax(0,1fr)}.suggestion small{display:none}.download-item{grid-template-columns:1fr}.download-item .btn{justify-self:start}}
+/* Clinical reference and feedback notice */
+.clinical-feedback-note {
+  margin-top: 18px;
+  max-width: 780px;
+  border: 1px solid #cddfdf;
+  border-left: 4px solid var(--brand-2);
+  border-radius: 0 12px 12px 0;
+  background: rgba(255, 255, 255, .72);
+  padding: 13px 16px;
+  color: var(--ink-2);
+  font-size: .84rem;
+}
+
+.clinical-feedback-note strong {
+  color: var(--ink);
+}
+
+.clinical-feedback-note a,
+.feedback-email {
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
+
+.clinical-feedback-panel {
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--brand-2);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background: linear-gradient(145deg, #eef8f6, #fbfdfd);
+  padding: 24px;
+}
+
+.clinical-feedback-panel h3 {
+  margin-top: 10px;
+}
+
+.clinical-feedback-panel p {
+  max-width: 900px;
+  color: var(--ink-2);
+}
+
+.clinical-feedback-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-feedback {
+  margin-top: 8px !important;
+}
+
+.footer-feedback a {
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+  .clinical-feedback-note {
+    font-size: .8rem;
+    padding: 12px 13px;
+  }
+
+  .clinical-feedback-panel {
+    padding: 19px;
+  }
+}
