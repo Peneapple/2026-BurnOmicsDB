@@ -108,10 +108,6 @@ Machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff
 - Peking University
 - University of Colorado Boulder
 
-**Zhe Dou**
-
-- Beijing Jishuitan Hospital
-- Capital Medical University
 
 ## Contact
 
