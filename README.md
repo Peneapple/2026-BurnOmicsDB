@@ -97,7 +97,7 @@ Raw GEO source files are not redistributed in this repository or the Zenodo rele
 
 Please cite the archived dataset:
 
-> Geng, P. X., & Dou, Z. (2026). *BurnOmicsDB: a curated and standardized database of human burn injury transcriptomics across tissues, time points, and clinical contexts* (Version 1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.21648675
+> Geng, P. X. (2026). *BurnOmicsDB: a curated and standardized database of human burn injury transcriptomics across tissues, time points, and clinical contexts* (Version 1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.21648675
 
 Machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
